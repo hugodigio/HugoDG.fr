@@ -1,0 +1,7 @@
+AuthName "Le site en version Beta est protégé par un mot de passe"
+AuthType Basic
+AuthUserFile "/var/www/wgaizq/www/_utils/.htpasswd"
+Require valid-user
+
+DirectoryIndex index.php index.html "/ressources/erreurs/404.php"
+ErrorDocument 404 "/_utils/erreurs/404.php"
