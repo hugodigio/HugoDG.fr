@@ -26,7 +26,7 @@
   }
 ?>
 <!-- la librairie "font-awesome" permet l'utilisation d'icones libre de droits avec des balises <i> -->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--permet de changer la couleur du navigateur sur certains appareils mobile (ex: chrome Android)-->
