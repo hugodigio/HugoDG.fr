@@ -1,0 +1,177 @@
+/*   ___       __       __
+    /   \     |  |     |  |
+   /  ^  \    |  |     |  |
+  /  /_\  \   |  |     |  |
+ /  _____  \  |  `----.|  `----.
+/__/     \__\ |_______||_______|
+*/
+
+/*---------------------------------
+  css commun a toutes les largeurs
+-----------------------------------*/
+
+/*onglet projet*/
+.box {
+	width: 250px;
+	padding: 250px 5px 5px 5px;
+	background-size: 200px 200px ;
+	background-position: 30px 30px;
+	margin: 10px;
+	background-repeat: no-repeat;
+	color: white;
+	transition: 0.2s;
+	display: inline-block;
+}
+
+.box:hover{
+	-ms-transform-origin: 50% 50%; /* IE 9 */
+  -ms-transform: scale(1.05,1.05); /* IE 9 */
+  -webkit-transform-origin: 50% 50%; /* Chrome, Safari, Opera */
+  -webkit-transform: scale(1.05,1.05); /* Chrome, Safari, Opera */
+  transform-origin: 50% 50%;
+  transform: scale(1.05,1.05);
+}
+
+h2{
+  width: 100%;
+  border-bottom: 1px solid;
+  font-size: 2em;
+}
+
+/* projet séléctionné */
+.bouton{
+	background-color: #476481;
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+.intitule{
+	min-width: 50%;
+	display: inline-block;
+}
+.typeprojet{
+	display: block;
+	overflow-y: auto;
+	margin: 10px;
+	padding: 10px;
+}
+
+.typeprojet span {
+	display: inline;
+}
+
+.progressionbar {
+	height: 20px;
+	border-style: solid;
+	border-color: #ECF0F0;
+	border-radius: 10px;
+	width: 40%;
+	display: inline-table;
+}
+
+.progress{
+	background-color: #ECF0F0;
+	border-radius: 10px;
+}
+
+.statut{
+	width: 9%;
+	display: inline-table;
+	text-align-last: center;
+	font-weight: bold;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+div .project-line {
+	color: white;
+	padding : 10px;
+	margin: 20px 0 20px 0;
+	border-radius: 3px;
+}
+
+div .project-line h1 {
+	font-size: 1.5em;
+	padding-bottom: 0;
+	display: inline-block;
+}
+
+div .project-line h2 {
+	font-size: 1.2em;
+	margin: auto;
+	border-bottom: none;
+	border-top: 1px solid;
+	padding-top: 10px;
+}
+
+.project-line_statut {
+	float: right;
+  color: white;
+}
+
+.project-line_version {
+	float: right;
+}
+.separator{
+	display: block;
+	width: 100%;
+	border-top: 1px solid;
+	margin-bottom: 20px;
+}
+
+/*
+.___  ___.  __   _______   _______   __       _______
+|   \/   | |  | |       \ |       \ |  |     |   ____|
+|  \  /  | |  | |  .--.  ||  .--.  ||  |     |  |__
+|  |\/|  | |  | |  |  |  ||  |  |  ||  |     |   __|
+|  |  |  | |  | |  '--'  ||  '--'  ||  `----.|  |____
+|__|  |__| |__| |_______/ |_______/ |_______||_______|
+*
+/
+
+/*------------------------------------------------------------------------
+  css pour les petites fenêtres ou écran de moyenne taille (ex: tablettes)
+-----
+---------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+
+}
+
+/*
+     _______..___  ___.      ___       __       __
+    /       ||   \/   |     /   \     |  |     |  |
+   |   (----`|  \  /  |    /  ^  \    |  |     |  |
+    \   \    |  |\/|  |   /  /_\  \   |  |     |  |
+.----)   |   |  |  |  |  /  _____  \  |  `----.|  `----.
+|_______/    |__|  |__| /__/     \__\ |_______||_______|*/
+
+
+/*---------------------------------
+  css pour petit écran (mobiles)
+-----------------------------------*/
+
+@media (max-width: 767px) {
+  .project-line_statut {
+		float: none;
+		margin: 10px 0 10px 0;
+	}
+
+	div .project-line h1 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 0;
+	}
+  .box {
+		width: 125px;
+		padding: 125px 5px 5px 5px;
+		background-size: 100px 100px ;
+		background-position: 15px 15px;
+		margin: 5px;
+		background-repeat: no-repeat;
+		color: white;
+		transition: 0.2s;
+		display: inline-block;
+	}
+}

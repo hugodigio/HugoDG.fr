@@ -14,13 +14,13 @@
   if(isset($page)){
     switch($page){
       case "CV":
-      echo('<link href="/_utils/css/cv.css" rel="stylesheet" id="css">');
+      echo('<link href="/_utils/css/cv.css" rel="stylesheet" id="css"/>');
         break;
       case "Projets":
-        echo('<link href="/_utils/css/projets.css" rel="stylesheet" id="css">');
+        echo('<link href="/_utils/css/projets.css" rel="stylesheet" id="css"/>');
         break;
       case "Contact":
-        echo('<link href="/_utils/css/contact.css" rel="stylesheet" id="css">');
+        echo('<link href="/_utils/css/contact.css" rel="stylesheet" id="css"/>');
         break;
     }
   }

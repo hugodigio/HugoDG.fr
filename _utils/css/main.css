@@ -25,20 +25,24 @@ header{
 	background-color: #FFF;
 }
 
-.contenu{
+#contenu{
 	font-family: 'Raleway', sans-serif;
 	margin: auto;
 	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #header{
 	background-color: #FFF;
 	height: 60px;
-	box-shadow: 0px 5px 8px #888;
+	box-shadow: 0px 5px 8px #aaa;
 	z-index: 9999;
 	position: fixed;
 	width: 100%;
 }
+
+
 
 /*
 .___  ___.  __   _______   _______   __       _______
@@ -166,22 +170,36 @@ header{
 	#header {
 		padding-bottom: 5px;
 	}
+	#contenu{
+    background-color: white;
+    margin: auto;
+    min-height: 500px;
+    min-height: calc(100vh - 158px);
+    padding-top: 60px;
+    padding-bottom: 30;
+		padding-left: 5px;
+		padding-right: 5px;
+  }
   #header a#title {
-    padding-top: 5px;
-    padding-left: 5px;
-    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 30px;
     text-decoration: none;
     font-family: "Raleway";
     color: #34495e;
     float: left;
+		overflow: hidden;
+		max-width: calc(100% - 75px);
+		max-height: 40px;
   }
 	#header img{
-		max-height: 30px;
+		max-height: 20px;
 		max-width: calc(100% - 80px);
 	}
   nav#slide{
-	display: inline-block;
-	width: 100%;
+		display: none;
+		width: 100%;
+		box-shadow: 0 5px 12px #aaa;
 	}
 	div#toggle-menu{
 		float: right;
@@ -223,16 +241,20 @@ header{
 		display: inline-block;
 		text-decoration: none ;
 		height: 40px;
-		z-index: 9999;
+		width: 100%;
 	}
 
 	ul#menu_PC a:hover{
 		background-color: #476481;
 		transition: 0.35;
 	}
+
   div#footer{
-    width: 100%;
-    background-color: white;
-    z-index: 9999;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+		background-color: white;
+		box-shadow : 0 -5px 12px #aaa;
   }
+
 }

@@ -15,7 +15,10 @@ var menu = 0;
   }
 
   function togglemenu(){
-  	$('#slide').slideToggle("medium");
+    $('#slide').slideToggle('medium', function() {
+    if ($(this).is(':visible'))
+        $(this).css('display','inline-block');
+    });
     if(menu==0){
       setTimeout(function () {
           menu = 1

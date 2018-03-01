@@ -1,0 +1,100 @@
+/*   ___       __       __
+    /   \     |  |     |  |
+   /  ^  \    |  |     |  |
+  /  /_\  \   |  |     |  |
+ /  _____  \  |  `----.|  `----.
+/__/     \__\ |_______||_______|
+*/
+
+/*---------------------------------
+  css commun a toutes les largeurs
+-----------------------------------*/
+.bleu {
+  background-color: #34495e;
+  color: white;
+}
+
+li{
+  font-weight: normal;
+  list-style: none;
+}
+
+li>a{
+  color:white;
+}
+
+li>a:hover{
+  color: grey;
+}
+
+#contenu{
+  font: 'Raleway', sans-serif;
+}
+/*
+.___  ___.  __   _______   _______   __       _______
+|   \/   | |  | |       \ |       \ |  |     |   ____|
+|  \  /  | |  | |  .--.  ||  .--.  ||  |     |  |__
+|  |\/|  | |  | |  |  |  ||  |  |  ||  |     |   __|
+|  |  |  | |  | |  '--'  ||  '--'  ||  `----.|  |____
+|__|  |__| |__| |_______/ |_______/ |_______||_______|
+*
+/
+
+/*------------------------------------------------------------------------
+  css pour les petites fenêtres ou écran de moyenne taille (ex: tablettes)
+-----
+---------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+  img.CV-image{
+    float: left;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  div.left{
+    width: 20%;
+    width: inline-block;
+    float: left;
+  }
+  div.right{
+    width: 75%;
+    font-size: 12px;
+    margin-left: 25%;
+  }
+}
+
+/*
+     _______..___  ___.      ___       __       __
+    /       ||   \/   |     /   \     |  |     |  |
+   |   (----`|  \  /  |    /  ^  \    |  |     |  |
+    \   \    |  |\/|  |   /  /_\  \   |  |     |  |
+.----)   |   |  |  |  |  /  _____  \  |  `----.|  `----.
+|_______/    |__|  |__| /__/     \__\ |_______||_______|*/
+
+
+/*---------------------------------
+  css pour petit écran (mobiles)
+-----------------------------------*/
+
+@media (max-width: 767px) {
+  .bleu {
+    padding-top: 20px;
+  }
+  img.CV-image{
+    max-height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  div.left{
+    width: 100%;
+    width: inline-block;
+    margin: auto;
+    text-align: center;
+  }
+  div.right{
+    font-size: 10px;
+  }
+}
