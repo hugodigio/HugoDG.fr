@@ -12,6 +12,7 @@
 .bleu {
   background-color: #34495e;
   color: white;
+  overflow-y: auto;
 }
 
 li{
@@ -57,6 +58,7 @@ li>a:hover{
   div.left{
     width: 20%;
     width: inline-block;
+    min-height: 20%;
     float: left;
   }
   div.right{

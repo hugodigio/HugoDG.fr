@@ -1,0 +1,228 @@
+/*   ___       __       __
+    /   \     |  |     |  |
+   /  ^  \    |  |     |  |
+  /  /_\  \   |  |     |  |
+ /  _____  \  |  `----.|  `----.
+/__/     \__\ |_______||_______|
+*/
+
+/*---------------------------------
+  css commun a toutes les largeurs
+-----------------------------------*/
+.informations{
+  background-color: #34495e;
+  color: white;
+  padding-top: 80px;
+}
+.prenom{
+  font-size: 1.75em;
+  display: block;
+}
+.nom{
+  font-size: 1.75em;
+  font-weight: bold;
+  display: block;
+}
+.informations > a {
+  text-align: center;
+  margin: auto;
+  background-color: #7795b4;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #000;
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  transition: 0.2s;
+  color: white;
+}
+.informations > a:hover {
+  -ms-transform-origin: 50% 50%; /* IE 9 */
+  -ms-transform: scale(0.95,0.95); /* IE 9 */
+  -webkit-transform-origin: 50% 50%; /* Chrome, Safari, Opera */
+  -webkit-transform: scale(0.95,0.95); /* Chrome, Safari, Opera */
+  transform-origin: 50% 50%;
+  transform: scale(0.95,0.95);
+  box-shadow: 1px 1px 5px #000;
+}
+
+.informations h1 {
+  text-align: right;
+  width: 90%;
+  font-size: 1.2em;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.infos_zone {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.infos_zone > a {
+  text-decoration: underline;
+  color: white;
+}
+
+ul.hobbies_zone {
+  padding-left: 10px;
+  list-style: none;
+}
+
+ul.hobbies_zone> li:before{
+  content: "- "
+}
+
+ul.hobbies_zone> li {
+  margin-bottom: 10px;
+}
+
+
+.tiny_text {
+ font-size: 12px;
+}
+
+.hobbies_zone a {
+  color: white;
+}
+
+.contenu_CV{
+  padding-top: 60px;
+  background-color: white;
+  padding-right: 10px;
+}
+
+.contenu_CV h1{
+  text-align: right;
+  border-bottom: 2px solid #34495e;
+  padding-bottom: 5px;
+  font-weight: normal;
+  width: 100%;
+}
+
+.contenu_CV h2{
+  margin-left: 20%;
+  border-bottom: 2px solid #7795b4;
+  color: #7795b4;
+}
+
+.date {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.intitule {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.tiny_description {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  color: grey;
+  display: block;
+}
+
+.contenu_CV p {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+
+.progress li{
+  font-weight: normal;
+}
+
+.progress table {
+  color: white;
+  border: 1px solid black;
+  background-color: #34495e;
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*
+.___  ___.  __   _______   _______   __       _______
+|   \/   | |  | |       \ |       \ |  |     |   ____|
+|  \  /  | |  | |  .--.  ||  .--.  ||  |     |  |__
+|  |\/|  | |  | |  |  |  ||  |  |  ||  |     |   __|
+|  |  |  | |  | |  '--'  ||  '--'  ||  `----.|  |____
+|__|  |__| |__| |_______/ |_______/ |_______||_______|
+*
+/
+
+/*------------------------------------------------------------------------
+  css pour les petites fenêtres ou écran de moyenne taille (ex: tablettes)
+------------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+  .informations{
+    width: 20%;
+    position: fixed;
+    overflow-y: scroll;
+    height: calc(100% - 70px);
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 0px 10px #0005;
+  }
+
+  .informations > img {
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+    display: block;
+  }
+  .contenu_CV {
+    padding-left: 23%;
+  }
+
+  div.progress{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    color: #34495e;
+  }
+
+  footer{
+    padding-left: 20%;
+    width: 80%;
+  }
+
+}
+
+/*
+     _______..___  ___.      ___       __       __
+    /       ||   \/   |     /   \     |  |     |  |
+   |   (----`|  \  /  |    /  ^  \    |  |     |  |
+    \   \    |  |\/|  |   /  /_\  \   |  |     |  |
+.----)   |   |  |  |  |  /  _____  \  |  `----.|  `----.
+|_______/    |__|  |__| /__/     \__\ |_______||_______|*/
+
+
+/*---------------------------------
+  css pour petit écran (mobiles)
+-----------------------------------*/
+@media (max-width: 767px) {
+  .informations > img {
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+    display: block;
+  }
+
+  .informations > a {
+    width: 80%;
+  }
+
+  .infos_zone {
+    margin-left: 5%;
+  }
+}
