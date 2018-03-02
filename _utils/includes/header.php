@@ -1,4 +1,4 @@
-<a href="http://beta.hugodg.fr/" id="title"> <strong>H</strong>ugo <img src="/_utils/ressources/logos/D-logo_dark.png"/>i Giovanni</a>
+<a href="http://hugodg.fr/" id="title"> <strong>H</strong>ugo <img src="/_utils/ressources/logos/D-logo_dark.png"/>i Giovanni</a>
   <div id="toggle-menu">
   		<a onclick="togglemenu()" onblur="togglemenu()">Menu<i class="fa fa-bars fa-2x" aria-hidden="true"></i></i></a>
   </div>

@@ -2,12 +2,12 @@
 <head>
   <?php
     $page = "Contact";
-    include_once("/var/www/wgaizq/Beta/_utils/includes/head.php");
+    include_once("/var/www/wgaizq/www/_utils/includes/head.php");
   ?>
 </head>
 <body>
   <header id="header">
-  <?php include_once("/var/www/wgaizq/Beta/_utils/includes/header.php"); ?>
+  <?php include_once("/var/www/wgaizq/www/_utils/includes/header.php"); ?>
   </header>
   <div id="contenu">
     <div class="contenu bleu contact" >
@@ -30,7 +30,7 @@
   </div>
   <footer>
     <div id="footer">
-      <?php include_once("/var/www/wgaizq/Beta/_utils/includes/footer.php"); ?>
+      <?php include_once("/var/www/wgaizq/www/_utils/includes/footer.php"); ?>
     </div>
   </footer>
 </body>

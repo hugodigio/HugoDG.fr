@@ -1,13 +1,13 @@
 <title> Hugo Di Giovanni - WebSite</title>
 <!-- meta données pour le référencement facebook -->
-<meta property= "og:url" content= "http://beta.hugodg.fr"/>
-<meta property= "og:image" content= "http://beta.hugodg.fr/_utils/ressources/logos/webicon_DiGioSoftware.jpg"/>
+<meta property= "og:url" content= "http://hugodg.fr"/>
+<meta property= "og:image" content= "http://hugodg.fr/_utils/ressources/logos/webicon_DiGioSoftware.jpg"/>
 <meta property= "og:description " content= "Site Web de Hugo DI GIOVANNI. Ce site présente son CV de manière intéractive ainsi que ses projets et des moyens pour le contacter"/>
 <meta property= "og:site_name " content= "Hugo Di Giovanni"/>
 <meta property= "fb:app_id" content="802769699908718"/>
 <!-- -->
 <meta charset="UTF-8">
-<link rel="shortcut icon" type="image/ico" href="http://beta.hugodg.fr/_utils/ressources/logos/webicon_DiGioSoftware.jpg"/>
+<link rel="shortcut icon" type="image/ico" href="http://hugodg.fr/_utils/ressources/logos/webicon_DiGioSoftware.jpg"/>
 <meta name="description" content="Site Web de Hugo DI GIOVANNI. Vous trouverez sur ce site mon CV, mes projets (avec présentation), ainsi qu'une section pour me contacter par mail ou par mes réseaux sociaux professionnel.">
 <link href="/_utils/css/main.css" rel="stylesheet" id="css">
 <?php

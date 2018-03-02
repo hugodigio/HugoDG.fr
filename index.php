@@ -2,12 +2,12 @@
 <head>
   <?php
     $page = "CV";
-    include_once("/var/www/wgaizq/Beta/_utils/includes/head.php");
+    include_once("/var/www/wgaizq/www/_utils/includes/head.php");
   ?>
 </head>
 <body>
   <header id="header">
-  <?php include_once("/var/www/wgaizq/Beta/_utils/includes/header.php"); ?>
+  <?php include_once("/var/www/wgaizq/www/_utils/includes/header.php"); ?>
   </header>
   <div class="informations">
     <img src="_utils\ressources\images\HugoDG_CV_photo.jpg"></img>
@@ -119,7 +119,7 @@
   </div>
   <footer>
     <div id="footer">
-      <?php include_once("/var/www/wgaizq/Beta/_utils/includes/footer.php"); ?>
+      <?php include_once("/var/www/wgaizq/www/_utils/includes/footer.php"); ?>
     </div>
   </footer>
 </body>
