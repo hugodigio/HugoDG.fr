@@ -120,6 +120,20 @@ div .project-line h2 {
 	margin-bottom: 20px;
 }
 
+a.github{
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #3F51B5;
+	transition: 0.2s;
+}
+
+a.github:hover{
+	background-color: #283593;
+}
+
 /*
 .___  ___.  __   _______   _______   __       _______
 |   \/   | |  | |       \ |       \ |  |     |   ____|

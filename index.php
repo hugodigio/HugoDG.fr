@@ -13,7 +13,7 @@
     <img src="_utils\ressources\images\HugoDG_CV_photo.jpg"></img>
     <span class="prenom"> Hugo </span>
     <span class="nom"> Di Giovanni </span>
-    <a href="_utils\ressources\fichiers\CV.pdf"> <i class="fas fa-file-pdf"></i> Télécharger au Format PDF <br/> (moins complet) </a>
+    <a href="_utils\ressources\fichiers\CV.pdf"> <i class="fas fa-file-pdf"></i> Télécharge au Format PDF <br/> (moins complet) </a>
     <h1> Informations </h1>
     <span class="infos_zone tel"> <i class="fas fa-phone"></i> <a href="tel:06.32.02.72.82">06 32 02 72 82</a> </span>
     <span class="infos_zone mail"> <i class="fas fa-envelope"></i> <a href="mailto:hugodigiovanni@gmail.com"> hugodigiovanni@gmail.com </a> </span>
@@ -33,7 +33,13 @@
     <h2> <i class="fas fa-briefcase fa-lg"></i> Expériences </h2>
     <ul id="experiences">
       <li>
-        <span class="date"> 2017 : </span> <span class="intitule"> Stage d'école d'ingénieur au Service Informatique du Campus de Luminy </span>
+        <span class="date"> 2018 : </span> <span class="intitule"> Stage d'école d'ingénieur en réalité virtuelle (Durée: 2 mois) </span>
+        <span class="tiny_description"> Zapata Racing </span> </li>
+        <p> Stage de conception et de réalisation d’un environnement 3D en réalité virtuelle, réalisé à l’aide du moteur <strong>Unreal Engine 4</strong>,
+        dans le but de pouvoirconsulter et intéragir avec des produits de l’entreprise Zapata,tel que le Flyboard Air. </p>
+      </li>
+      <li>
+        <span class="date"> 2017 : </span> <span class="intitule"> Stage d'école d'ingénieur au Service Informatique du Campus de Luminy (Durée: 1 mois) </span>
         <span class="tiny_description"> DOSI, Aix-Marseille Université </span> </li>
         <p> Mise à jour et corrections d’un logiciel libre de droits (qoq-cot). Correction de la base
         de données ainsi que de calculs réalisés en PHP permettant de générer des
@@ -41,7 +47,7 @@
         trop larges auparavant. </p>
       </li>
       <li>
-        <span class="date"> 2016 : </span> <span class="intitule"> Stage de DUT au Service Informatique du Campus de Luminy </span>
+        <span class="date"> 2016 : </span> <span class="intitule"> Stage de DUT au Service Informatique du Campus de Luminy (Durée: 2 mois) </span>
         <span class="tiny_description"> DOSI, Aix-Marseille Université </span> </li>
         <p> Développement d’un site Web PHP afin de gérer la distribution des licences de
         logiciels pour les ordinateurs de campus. Etablissement d’une base de données qui

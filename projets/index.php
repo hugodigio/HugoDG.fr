@@ -22,7 +22,7 @@
       if(!isset($_GET['type'])){
         echo("<h2> Projets </h2><center>");
 
-        echo("<p> Retrouvez une partie des projets sur mon dépôt <i class='fab fa-github'></i> <a href='https://github.com/hugodigio'>github </a></p>");
+        echo("<p> Retrouvez une partie des projets sur mon dépôt  <a class= \"github\" href='https://github.com/hugodigio'> <i class='fab fa-github'></i> GitHub </a></p>");
         $sql = 'SELECT * FROM `Type`';
         $results = $bdd->query($sql);
         while ($row = $results->fetch()){
