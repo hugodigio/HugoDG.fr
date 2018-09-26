@@ -91,15 +91,15 @@ ul.hobbies_zone> li {
 .contenu_CV{
   padding-top: 60px;
   background-color: white;
-  padding-right: 10px;
 }
 
 .contenu_CV h1{
   text-align: right;
   border-bottom: 2px solid #34495e;
   padding-bottom: 5px;
+  padding-right: 2%;
   font-weight: normal;
-  width: 100%;
+  width: 98%;
 }
 
 .contenu_CV h2{
@@ -109,7 +109,7 @@ ul.hobbies_zone> li {
 }
 
 .date {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold;
 }
 
@@ -144,6 +144,11 @@ ul.hobbies_zone> li {
   width: 80%;
   text-align: center;
   font-weight: bold;
+  margin: auto;
+}
+
+td {
+  padding: 10px;
 }
 
 
@@ -181,6 +186,12 @@ ul.hobbies_zone> li {
   }
   .contenu_CV {
     padding-left: 23%;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .contenu_CV > div, .contenu_CV > h2{
+    text-align: left;
   }
 
   div.progress{
@@ -195,6 +206,11 @@ ul.hobbies_zone> li {
     width: 80%;
   }
 
+  div.contenu_section{
+    width: 75%;
+    margin: auto;
+    display: inline-block;
+  }
 }
 
 /*
@@ -224,5 +240,12 @@ ul.hobbies_zone> li {
 
   .infos_zone {
     margin-left: 5%;
+  }
+
+  div.contenu_section{
+    width: 90%;
+    display: inline-block;
+    margin-left: 5%;
+
   }
 }
